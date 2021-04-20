@@ -10,7 +10,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 import java.time.LocalDate;
 import java.util.List;
 
-@Document(collection = "json-data")
+@Document(collection = "users")
 @Data
 @ToString
 @AllArgsConstructor
