@@ -23,4 +23,12 @@ public class User {
     private String email;
     private LocalDate birthDate;
     private List<Post> posts;
+
+    public User(Long code, String name, String email, LocalDate birthDate, List<Post> posts) {
+        this.code = code;
+        this.name = name;
+        this.email = email;
+        this.birthDate = birthDate;
+        this.posts = posts;
+    }
 }
